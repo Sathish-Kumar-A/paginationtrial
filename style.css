@@ -1,0 +1,41 @@
+.outer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.design{
+    box-shadow: 0 10px 10px rgba(50,50,50,0.1);
+    padding:1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1.5rem;
+}
+.pagination{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-end;
+    /* box-shadow: 0 10px 10px rgba(50,50,50,0.1); */
+}
+.root{
+    font-size:10px;
+}
+.margin1{
+    height:2rem;
+    border: 1px solid;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    border-collapse: collapse;
+}
+.margin{
+    height:2rem;
+    width:2rem;
+    border: 1px solid;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    border-collapse: collapse;
+}
+.bold{
+    font-weight: bold;
+}
